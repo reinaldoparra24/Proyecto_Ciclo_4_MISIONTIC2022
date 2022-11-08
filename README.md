@@ -1,4 +1,4 @@
-# MERN_TIC_ELECTRONICS
+# CICLO 4 MISIONTIC2022 TIC ELECTRONICS
 
 Este es el proyecto para el ciclo 4A - Desarrollo de Aplicaciones Web para el programa MisionTIC2022 Universidad Tecnológica de Pereira
 
@@ -20,8 +20,8 @@ HTML5 y CSS3, React, Axios conexión a API Store, Node y Express, conexión a Mo
 
 ### 1. Clonar repositorio
 ```
-$ git clone git@github.com:reinaldoparra24/MERN_TIC_ELECTRONICS.git
-$ cd MERN_TIC_ELECTRONICS
+> git clone https://github.com/reinaldoparra24/Proyecto_Ciclo_4_MISIONTIC2022.git
+> cd Proyecto_Ciclo_4_MISIONTIC2022
 ```
 ### 2. Crear Archivo .env
 - Duplicar .env.example en la carpeta backend y renombrar a .env
@@ -36,17 +36,17 @@ $ cd MERN_TIC_ELECTRONICS
 
 ### 4. Correr Backend
 ```
-$ cd backend
-$ npm install
-$ npm start
+> cd backend
+> npm install
+> npm start
 ```
 
 ### 5. Correr Frontend
 ```
 # Abrir nueva terminal (Dividir Terminal)
-$ cd frontend
-$ npm install
-$ npm start
+> cd frontend
+> npm install
+> npm start
 ```
 
 ### 6. Muestra de usuarios y productos
@@ -60,4 +60,4 @@ $ npm start
 - Ingrese el correo electrónico y la contraseña del administrador y haga Clic en Iniciar Sesión
 
 
-Tomado de Videotutorial: https://www.youtube.com/watch?v=CDtPMR5y0QU&t=2256s
+Créditos: https://www.youtube.com/watch?v=CDtPMR5y0QU&t=2256s
