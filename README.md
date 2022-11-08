@@ -4,10 +4,14 @@ Este es el proyecto para el ciclo 4A - Desarrollo de Aplicaciones Web para el pr
 
 ![TIC_ELECTRONICS](/frontend/public/images/TIC_ELECTRONICS.png)
 
+# Repositorio
+
+GitHub: https://github.com/reinaldoparra24/Proyecto_Ciclo_4_MISIONTIC2022
+
 ## Website en Heroku
 
 - Heroku : 
-- GitHub Pages: https://reinaldoparra24.github.io/MERN_TIC_ELECTRONICS/
+- GitHub Pages: https://reinaldoparra24.github.io/Proyecto_Ciclo_4_MISIONTIC2022/
 
 ## Herramientas Usadas
 HTML5 y CSS3, React, Axios conexión a API Store, Node y Express, conexión a MongoDB: Mongoose
