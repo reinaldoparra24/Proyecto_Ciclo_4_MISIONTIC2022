@@ -20,7 +20,7 @@ HTML5 y CSS3, React, Axios conexión a API Store, Node y Express, conexión a Mo
 
 ### 1. Clonar repositorio
 ```
-$ git clone git@github.com:reinaldoparra24/MERN_TIC_ELECTRONICS.git
+$ git clone git@github.com:reinaldoparra24/Proyecto_Ciclo_4_MISIONTIC2022.git
 $ cd MERN_TIC_ELECTRONICS
 ```
 ### 2. Crear Archivo .env
