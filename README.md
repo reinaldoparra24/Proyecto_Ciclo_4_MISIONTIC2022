@@ -10,7 +10,7 @@ GitHub: https://github.com/reinaldoparra24/Proyecto_Ciclo_4_MISIONTIC2022
 
 ## Website en Heroku
 
-- Heroku : 
+- Heroku : https://ticelectronic.herokuapp.com/
 - GitHub Pages: https://reinaldoparra24.github.io/Proyecto_Ciclo_4_MISIONTIC2022/
 
 ## Herramientas Usadas
@@ -34,6 +34,7 @@ HTML5 y CSS3, React, Axios conexión a API Store, Node y Express, conexión a Mo
   - Crear BD en https://cloud.mongodb.com
   - En el archivo .env actualizar MONGODB_URI=mongodb+srv://Your-db-connection
 
+# Abrir nueva terminal (Dividir Terminal)
 ### 4. Correr Backend
 ```
 > cd backend
@@ -43,16 +44,14 @@ HTML5 y CSS3, React, Axios conexión a API Store, Node y Express, conexión a Mo
 
 ### 5. Correr Frontend
 ```
-# Abrir nueva terminal (Dividir Terminal)
 > cd frontend
 > npm install
 > npm start
 ```
-
 ### 6. Muestra de usuarios y productos
 
 - Abre en tu navegador: http://localhost:5000/api/seed
-- Devuelve el correo electrónico y la contraseña del administrador y 8 productos de muestra
+- Devuelve el correo electrónico y la contraseña del administrador y los productos de muestra
 
 ### 7. Inicio de sesión Administrador
 
