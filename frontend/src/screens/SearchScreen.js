@@ -36,16 +36,20 @@ const reducer = (state, action) => {
 
 const prices = [
   {
-    name: '$1000 a $500000',
-    value: '1000-500000',
+    name: '$10k a $500k',
+    value: '10000-500000',
   },
   {
-    name: '$500001 a $2000000',
+    name: '$500k a $2M',
     value: '501000-2000000',
   },
   {
-    name: '$2000001 a $10000000',
+    name: '$2M a $10M',
     value: '2000001-10000000',
+  },
+  {
+    name: '$10M a $30M',
+    value: '10000001-30000000',
   },
 ];
 
@@ -173,7 +177,7 @@ export default function SearchScreen() {
                     to={getFilterUrl({ rating: r.rating })}
                     className={`${r.rating}` === `${rating}` ? 'text-bold' : ''}
                   >
-                    <Rating caption={' & up'} rating={r.rating}></Rating>
+                    <Rating caption={' '} rating={r.rating}></Rating>
                   </Link>
                 </li>
               ))}
@@ -182,7 +186,7 @@ export default function SearchScreen() {
                   to={getFilterUrl({ rating: 'all' })}
                   className={rating === 'all' ? 'text-bold' : ''}
                 >
-                  <Rating caption={' & up'} rating={0}></Rating>
+                  <Rating caption={' '} rating={0}></Rating>
                 </Link>
               </li>
             </ul>
@@ -217,7 +221,7 @@ export default function SearchScreen() {
                   </div>
                 </Col>
                 <Col className="text-end">
-                  Filtrado Por{' '}
+                  Filtrar por{' '}
                   <select
                     value={order}
                     onChange={(e) => {
